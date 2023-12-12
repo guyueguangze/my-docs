@@ -1,18 +1,18 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { hopeTheme } from "vuepress-theme-hope"
+import { enNavbar, zhNavbar } from "./navbar/index.js"
+import { enSidebar, zhSidebar } from "./sidebar/index.js"
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "http://janusq.zju.edu.cn/#/admin/documentManage",
 
   author: {
-    name: "Mr.Hope",
+    name: "Mr.tsw",
     url: "https://mister-hope.com",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -66,6 +66,7 @@ export default hopeTheme({
   plugins: {
     // You should generate and use your own comment service
     comment: {
+      comment: false,
       provider: "Giscus",
       repo: "vuepress-theme-hope/giscus-discussions",
       repoId: "R_kgDOG_Pt2A",
@@ -132,7 +133,7 @@ export default hopeTheme({
                 tag: "Badge",
                 attrs: { type: "tip" },
                 content: "Recommended",
-              };
+              }
           },
         },
       ],
@@ -202,4 +203,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+})
