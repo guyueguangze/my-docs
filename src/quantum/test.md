@@ -1,10 +1,10 @@
 ---
 # This is the title of the article
-title: test1
+title: Page Config
 # This is the icon of the page
 icon: file
 # This control sidebar order
-order: 3
+order: 5
 # Set author
 author: Ms.Hope
 # Set writing time

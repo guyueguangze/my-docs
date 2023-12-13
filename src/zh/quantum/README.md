@@ -13,4 +13,5 @@ category:
 - [平台总览](平台总览.md)
 
 - [QucodeAPI](QucodeAPI.md)
+- [test](test.md)
 

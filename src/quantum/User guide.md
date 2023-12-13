@@ -1,3 +1,9 @@
+---
+title: User guide
+index: true
+icon: laptop-code
+
+---
 <!--
 http://localhost:3000/
 http://janusq.zju.edu.cn:10211/
