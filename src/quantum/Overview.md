@@ -31,7 +31,7 @@ http://janusq.zju.edu.cn:10211/
 -->
 # Overview
 This document takes you through the main functions of the cloud platform.
-
+#   
 ### Registration and login
 Users need to register before they can use the functions of quantum computer. After filling in the relevant information, due to security reasons, the background will conduct an audit within one working day, and they can use the simulator and quantum computer programming functions of the platform after passing the audit.    
 ![reg](http://janusq.zju.edu.cn:10211/md-pics/reg.png)
